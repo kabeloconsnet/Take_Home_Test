@@ -1,0 +1,15 @@
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\ChuckWarsApi.deps.json
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\ChuckWarsApi.runtimeconfig.json
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\appsettings.Development.json
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\appsettings.json
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\ChuckWarsApi.exe
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\ChuckWarsApi.dll
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\Kabelo\source\repos\ChuckWarsApp\bin\Debug\ChuckWarsApi.pdb
+C:\Users\Kabelo\source\repos\ChuckWarsApp\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Kabelo\source\repos\ChuckWarsApp\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Kabelo\source\repos\ChuckWarsApp\obj\Debug\docker-compose.dcproj.CopyComplete

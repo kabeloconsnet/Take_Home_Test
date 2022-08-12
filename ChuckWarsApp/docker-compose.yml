@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  chuckwarsapi:
+    image: ${DOCKER_REGISTRY-}chuckwarsapi
+    build:
+      context: .
+      dockerfile: ChuckWarsApi/Dockerfile
