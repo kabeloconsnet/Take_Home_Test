@@ -14,5 +14,6 @@ How to Run Solution
 5. Again in terminal run command: "docker run -p 44360:80 nueralcashew/chuckwarsapp"
 6. Navigate out of the ChuckWarsApp back to the solution folder i.e root folder.
 7. Navigate from the solution folder into the ChuckWarsFrontEnd_v3 then into ChuckWarsFrontEnd
-8. Open the terminal in the ChuckWarsFrontEnd folder9
-9. In the terminal run command: "ng serve --open"
+8. Open the terminal in the ChuckWarsFrontEnd folder
+9. In the terminal run commad: "npm install --save-dev @angular-devkit/build-angular"
+10. In the terminal run command: "ng serve --open"
