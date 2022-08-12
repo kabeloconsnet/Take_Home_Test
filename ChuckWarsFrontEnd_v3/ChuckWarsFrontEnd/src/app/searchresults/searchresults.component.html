@@ -1,0 +1,54 @@
+
+<mat-card class="col-6 offset-3">
+  <h2>Search</h2>
+    <mat-form-field>
+      <input matInput [(ngModel)]="searchterm" minlength="3" placeholder="Search Term"/>
+    </mat-form-field>
+    <div class="searchButton">
+      <button mat-flat-button color="primary" (click)="submitInput()"  >Search</button>
+    </div>
+</mat-card>
+
+
+
+<div fxLayout='row' fxLayoutWrap class="cards">
+
+  <div fxFlex="20" class="example-card">
+    <mat-card *ngFor="let item of obj?.cleanSearchResultsObjectList" style="margin-top:10px;" >
+      <mat-card-header>
+        <mat-card-subtitle>{{item.source}} </mat-card-subtitle>
+      </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{item.valueresp}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--
+
+<div class="container mat-elevation-z8">
+  <table >
+    <thead>
+      <th>Search Result</th>
+      <th>Search Source</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let item of obj?.cleanSearchResultsObjectList">
+          <td>{{item.valueresp}}</td>
+          <td>{{item.source}}</td>
+      </tr>
+  </tbody>
+  </table>
+
+</div>
+-->
+

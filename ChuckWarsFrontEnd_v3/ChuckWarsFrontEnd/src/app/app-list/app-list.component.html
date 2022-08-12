@@ -1,0 +1,6 @@
+
+<div class="row">
+  <div *ngFor="let event of appevents" class="col-4">
+    <app-chuckwars [event]= "event" (clickevent)="logName($event)" ></app-chuckwars>
+  </div>
+</div>

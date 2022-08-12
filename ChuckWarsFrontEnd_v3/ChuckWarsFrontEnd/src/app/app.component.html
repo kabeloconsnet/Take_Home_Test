@@ -1,0 +1,13 @@
+<nav >
+  <div class="col-8 offset-2">
+    <h2 [routerLink]="['home']"> Home </h2>
+    <ul>
+      <li [routerLink]="['searchresults']"><a>Search Page</a></li>
+
+    </ul>
+  </div>
+
+</nav>
+<div class="container" id="contentContainer">
+  <router-outlet></router-outlet>
+</div>

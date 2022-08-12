@@ -1,0 +1,15 @@
+
+<div class="container mat-elevation-z8" >
+  <table >
+    <thead>
+      <th>Category</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let item of chuckcategories$|async" (click)="selectRow(item)">
+          <td>{{item}}</td>
+      </tr>
+  </tbody>
+  </table>
+
+</div>
+

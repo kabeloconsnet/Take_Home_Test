@@ -1,0 +1,28 @@
+nav{
+  background: pink;
+  color:white;
+  height: 50px;
+  h2{
+    margin: 0px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  ul{
+    margin: 0px;
+    float:right;
+    li{
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      a{
+        cursor: pointer;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.contentContainer{
+  padding-top: 30px;
+}

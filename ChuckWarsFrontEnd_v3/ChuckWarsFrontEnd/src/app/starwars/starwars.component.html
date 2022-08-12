@@ -1,0 +1,45 @@
+<h1>Star Wars People</h1>
+
+
+<div class="example-container mat-elevation-z8">
+  <mat-table #table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="height">
+      <mat-header-cell *matHeaderCellDef> Height </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.height}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="mass">
+      <mat-header-cell *matHeaderCellDef> mass </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.mass}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="hair_color">
+      <mat-header-cell *matHeaderCellDef> hair color </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.hair_color}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="skin_color">
+      <mat-header-cell *matHeaderCellDef> skin color </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.skin_color}} </mat-cell>
+    </ng-container>
+
+
+
+    <mat-header-row *matHeaderRowDef="PeopleColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: PeopleColumns;"></mat-row>
+  </mat-table>
+  <mat-paginator #paginator
+  [pageSize]="10"
+  [pageIndex]="CurrentPage"
+  [length]="totalCount"
+  (page)="nextPage($event)"
+  [showFirstLastButtons]="true">
+</mat-paginator>
+</div>
+
